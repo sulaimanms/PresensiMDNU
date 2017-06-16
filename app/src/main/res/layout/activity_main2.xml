@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.sulaimanms.presensimdnu.Main2Activity">
+
+    <TextView
+        android:text="Assalamu'alaikum wr wb"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Selamat Datang Ust. Raudak"
+        android:textAlignment="center"
+        android:textSize="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/awl_1"
+                android:layout_width="400px"
+                android:layout_height="wrap_content"
+                android:text="1 Awaliyah"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="center" />
+            <Button
+                android:id="@+id/awl_2"
+                android:layout_width="400px"
+                android:layout_height="wrap_content"
+                android:text="2 Awaliyah"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="center" />
+            <Button
+                android:id="@+id/awl_3"
+                android:layout_width="400px"
+                android:layout_height="wrap_content"
+                android:text="3 Awaliyah"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="center" />
+            <Button
+                android:id="@+id/awl_4"
+                android:layout_width="400px"
+                android:layout_height="wrap_content"
+                android:text="4 Awaliyah"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="center" />
+            <Button
+                android:id="@+id/wustho_1"
+                android:layout_width="400px"
+                android:layout_height="wrap_content"
+                android:text="1 Wustho"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="center" />
+            <Button
+                android:id="@+id/wustho_2"
+                android:layout_width="400px"
+                android:layout_height="wrap_content"
+                android:text="2 Wustho"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="center" />
+            <Button
+                android:id="@+id/ulya_1"
+                android:layout_width="400px"
+                android:layout_height="wrap_content"
+                android:text="1 Ulya"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="center" />
+            <Button
+                android:id="@+id/ulya_2"
+                android:layout_width="400px"
+                android:layout_height="wrap_content"
+                android:text="2 Ulya"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
